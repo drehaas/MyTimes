@@ -3,13 +3,25 @@
   font-family: Verdana;
   font-size: 14px;
   font-weight: bold;
-  display:flex;
-}
+  display: flex;
+  color: MediumAquamarine;
 
 .logo{
-  
+  flex
 }
 
-.nav{
+.topnav{
+  align-content: flex-end;
+}
 
+.column.large {
+  width: 630px;
+}
+
+.column.medium {
+  width: 300px;
+}
+
+.column.small {
+  width: 240px;
 }
